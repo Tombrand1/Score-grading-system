@@ -11,7 +11,7 @@ function Total(){
     }
     else{
         var total= sub1 + sub2 + sub3 + sub4 + sub5;
-        document.getElementById("total").innerHTML = "English Marks :"+sub1+"<br> Maths Marks: "+sub2+"<br> Physics Marks: "+sub3+"<br> Chemistry Marks: "+sub4+"<br> Computer Marks: "+sub5+"<br> Total Marks: "+total;
+        document.getElementById("total").innerHTML = "English :"+sub1+"<br> Maths: "+sub2+"<br> Physics: "+sub3+"<br> Chemistry: "+sub4+"<br> Computer: "+sub5+"<br> Total Marks: "+total;
     }
 }
 function Average(){
